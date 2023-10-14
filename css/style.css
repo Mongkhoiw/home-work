@@ -1,0 +1,19 @@
+ul { list-style: none;}
+
+nav {
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    padding: 10px 0;}
+
+nav ul li {display: inline-block;}
+
+nav ul li a {text-decoration: none;
+    color: white;
+padding: 12px 25px;
+display: inline-block;
+transition: 300ms;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover 
+{background-color: rgba(255, 255, 255, 0.295);}
